@@ -48,15 +48,13 @@ header {
 /* Main */
 
 .speaker-view {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     flex-wrap: wrap;
     justify-content: space-around;
     overflow-y: auto;
 }
 
 .participant {
-    width: 246px;
-    height: 146px;
     position: relative;
     margin-top: 5px;
 }
@@ -74,9 +72,38 @@ header {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 80px;
+    color: white;
 }
 
 .bottom-bar {
     justify-content: space-between;
+}
+
+.left-bar, .middle-bar, .right-bar {
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.icon-big{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.fa-share-square {
+    color: #4bc800;
+}
+
+.right-bar {
+    background-color: #4a4a4a;
+    color: #bf292c;
+    font-weight: bold;
+    padding: 10px;
 }
