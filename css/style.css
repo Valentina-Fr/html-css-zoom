@@ -1,0 +1,61 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/* Utils */
+
+.d-flex {
+    display: flex;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Header */
+
+header {
+    height: 100px;
+    border: 1px solid white;
+}
+
+.toolbar {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.fa-th {
+    margin-right: 5px;
+}
+
+/* Main */
+
+main {
+    height: calc(100vh - 200px);
+    border: 1px solid white;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    border: 1px solid white;
+}
